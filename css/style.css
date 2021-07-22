@@ -52,6 +52,29 @@ body{
     color: #0072ce;
 }
 
+/* header */
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header-top{
+    background-color: #000;
+    height: 35px;
+}
+
+.header-top .container, .header-top .row{
+    height: 100%;
+}
+
+.logo-sony{
+    height: 20px;
+}
+
+/*game image */
+
 .game{
     width: 100%;
     overflow: hidden;
