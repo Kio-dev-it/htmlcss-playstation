@@ -52,6 +52,7 @@ body{
     color: #0072ce;
 }
 
+
 /* header */
 
 header{
@@ -71,6 +72,65 @@ header{
 
 .logo-sony{
     height: 20px;
+}
+
+.header-bottom{
+    background-color: #fff;
+    height: 65px;
+}
+
+.navbar{
+    height: 100%;
+}
+
+.logo-ps{
+    width: 100%;
+}
+
+.angle-down, .angle-down-hover{
+    width: 0.62rem;
+}
+
+.angle-down-hover{
+    display: none;
+}
+ 
+/* change bootstrap nav property */
+.navbar-light .navbar-nav .nav-link, .nav-item .nav-link{
+    color: #000;
+}
+
+.nav-item .nav-link{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/* Header hover */
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: #000;
+}
+
+.nav-item .nav-link:hover .angle-down{
+    display: none;
+}
+
+.nav-item .nav-link:hover .angle-down-hover{
+    display: inline-block;
+}
+
+
+
+.ms-dropdown_angle{
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
 }
 
 /*game image */
