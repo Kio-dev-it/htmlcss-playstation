@@ -296,3 +296,21 @@ main{
 .discount__image{
     width: 100%;
 }
+
+/* Playstation now */
+
+.play-now{
+    background-color: #161c3b;
+}
+
+.play-now__logo{
+    width: 60%;
+}
+
+.play-now__image{
+    width: 100%;
+}
+
+.play-now h6{
+    margin: 30px 0;
+}
