@@ -206,6 +206,7 @@ main{
 
 .thumb__card{
     max-width: 180px;
+    margin: 0 auto;
     height: 100%;
     border-bottom: 1px solid transparent;
 }
