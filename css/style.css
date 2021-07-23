@@ -242,3 +242,26 @@ main{
 #new-title .game{
     margin-bottom: 50px;
 }
+
+/* play 4 */
+
+.play4{
+    padding: 80px 0 60px 0;
+}
+
+.play4 h4{
+    margin-bottom: 6px;
+}
+
+.play4 span{
+    font-size: 1.125rem;
+    vertical-align: super;
+}
+
+.play4__card a{
+    margin-top: 18px;
+}
+
+.play4__image{
+    width: 100%;
+}
