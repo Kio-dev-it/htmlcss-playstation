@@ -68,46 +68,53 @@ p{
 header{
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     z-index: 10;
 }
 
 .header-top{
     background-color: #000;
-    height: 35px;
-}
-
-.header-top .container, .header-top .row{
-    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 12px;
 }
 
 .logo-sony{
-    height: 20px;
+    height: 15px;
 }
 
 .header-bottom{
     background-color: #fff;
-    height: 65px;
 }
 
-.navbar{
-    height: 100%;
+.search{
+    padding: 0 12px;
 }
 
-.logo-ps{
-    width: 100%;
+.search__lens{
+    height: 24px;
 }
 
-.angle-down, .angle-down-hover{
-    width: 0.62rem;
+.header-bottom .dropdown .nav-link::after{
+    content: url('../img/chevron-down-solid.svg');
+    display: inline-block;
+    vertical-align: text-top;
+    width: 10px;
+    margin-left: 2px;
 }
 
-.angle-down-hover{
-    display: none;
+.header-bottom .dropdown .nav-link:hover::after{
+    content: url('../img/chevron-down-solid-hover.svg');
+    display: inline-block;
+    vertical-align: text-top;
+    width: 10px;
+    margin-left: 2px;
 }
- 
+
+
 /* change bootstrap nav property */
-.navbar-light .navbar-nav .nav-link, .nav-item .nav-link{
+.header-bottom .navbar-light .navbar-nav .nav-link, .nav-item .nav-link{
     color: #000;
 }
 
