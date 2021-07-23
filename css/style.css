@@ -140,13 +140,13 @@ header{
 
 /*  ----------   main   ---------- */
 
-/* jumbo */
-
-.section-jumbo{
-    margin-top: 100px;
+main{
+    padding-top: 107px;
 }
 
-.section-jumbo__selected{
+/* hero */
+
+.hero__selected{
     height: 600px;
     margin-bottom: 35px;
     background-image: url(../img/jumbo-bg.png);
@@ -155,12 +155,11 @@ header{
     padding-top: 250px;
 }
 
-    
-.section-jumbo__title, .section-jumbo__par{
+.hero__title, .hero__par{
     margin-bottom: 30px;
 }
 
-.section-jumbo__image-name{
+.hero__image-name{
     width: 60%;
     margin-bottom: 40px ;
 }
@@ -169,8 +168,8 @@ header{
 
 .game{
     width: 100%;
-    overflow: hidden;
     margin-bottom: 25px;
+    transition: transform .3s ease-in-out;
 }
 
 .border_radius{
@@ -179,6 +178,16 @@ header{
 
 .game__image{
     width: 100%;
+    padding: 2px;
+}
+
+.game__image--active{
+    box-shadow: 0px 0px 0px 2px #0072ce;
+    
+}
+
+.game:hover{
+    transform: translateY(-15px);
 }
 
 /* play 5 */
