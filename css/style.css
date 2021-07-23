@@ -265,3 +265,21 @@ main{
 .play4__image{
     width: 100%;
 }
+
+/* PlaysStation Plus */
+
+.play-plus{
+    background-color: #bebcbb;
+}
+
+.play-plus__logo{
+    width: 60%;
+}
+
+.play-plus__image{
+    width: 100%;
+}
+
+.play-plus h6{
+    margin: 30px 0;
+}
