@@ -6,6 +6,7 @@ body{
 }
 
 a{
+    display: inline-block;
     text-decoration: none;
     color: #ffffff;
 }
@@ -13,6 +14,12 @@ a{
 ul{
     list-style: none;
 }
+
+[class$="__image"] {
+    width: 100%;
+}
+
+/* Buttons */
 
 .ms-btn_general{
     border-radius: 22px;
@@ -41,28 +48,6 @@ ul{
 .ms-btn_white{
     background-color: #f5f5f5;
     color: #000;
-}
-
-/* game image */
-
-.game{
-    width: 100%;
-    margin-bottom: 25px;
-    transition: transform .5s ease-in-out;
-}
-
-.border_radius{
-    border-radius: 15px;
-}
-
-.game__image{
-    width: 100%;
-    padding: 2px;
-}
-
-.game__image--active{
-    box-shadow: 0px 0px 0px 2px #0072ce;
-    
 }
 
 
@@ -94,8 +79,40 @@ p{
     color: #0072ce;
 }
 
+.ms-text_black{
+    color: #000;
+}
+
+
+/* Cursor */
+
 h1, h2, h3, h4, h5, h6, span, p{
-    cursor: de;
+    cursor: default;
+}
+
+.thumb__link > h6, .game__link > h6{
+    cursor: pointer;
+}
+
+
+/* game image */
+
+.game{
+    margin-bottom: 25px;
+    transition: transform .5s ease-in-out;
+}
+
+.border_radius{
+    border-radius: 15px;
+}
+
+.game__image{
+    padding: 2px;
+}
+
+.game__image--active{
+    box-shadow: 0px 0px 0px 2px #0072ce;
+    
 }
 
 
@@ -113,10 +130,10 @@ header{
     background-color: #000;
     display: flex;
     justify-content: flex-end;
-    padding: 8px 12px;
+    padding: 5px 12px;
 }
 
-.logo-sony{
+.sony__logo{
     height: 15px;
 }
 
@@ -160,7 +177,7 @@ header{
 }
 
 
-/* Header hover */
+/* change bootstrap navbar hover */
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
     color: #000;
@@ -174,10 +191,11 @@ header{
     display: inline-block;
 }
 
+
 /*  ----------   main   ---------- */
 
 main{
-    padding-top: 107px;
+    padding-top: 110px;
 }
 
 /* hero */
@@ -193,11 +211,11 @@ main{
 }
 
 .hero__image-name{
-    width: 60%;
+    width: 55%;
     margin-bottom: 40px ;
 }
 
-#hero .hero__selected{
+.hero .hero__selected{
     background-image: url(../img/jumbo-bg.png);
     padding-top: 250px;
     margin-bottom: 35px;
@@ -210,10 +228,6 @@ main{
 /* play 5 */
 .play5{
     padding: 80px 0 40px 0;
-}
-
-.play5__image{
-    width: 100%;
 }
 
 .play5__image-thumb{
@@ -242,18 +256,19 @@ main{
     opacity: 1;
 }
 
+
 /* new titles */
 
-#new-title .hero__selected{
+.new-title .hero__selected{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
 }
 
-#new-title .hero__selection{
+.new-title .hero__selection{
     padding: 35px 0;
     background-color: #1f1f1f;
 }
 
-#new-title .game{
+.new-title .game{
     margin-bottom: 50px;
 }
 
@@ -276,10 +291,6 @@ main{
     margin-top: 18px;
 }
 
-.play4__image{
-    width: 100%;
-}
-
 
 /* PlaysStation Plus */
 
@@ -291,15 +302,11 @@ main{
     width: 60%;
 }
 
-.play-plus__image{
-    width: 100%;
-}
-
 .play-plus h6{
     margin: 30px 0;
 }
 
-/* discount */
+/* Discount */
 .discount{
     padding: 80px 0 60px 0;
 }
@@ -307,9 +314,6 @@ main{
     margin-bottom: 65px;
 }
 
-.discount__image{
-    width: 100%;
-}
 
 /* Playstation now */
 
@@ -321,13 +325,10 @@ main{
     width: 60%;
 }
 
-.play-now__image{
-    width: 100%;
-}
-
 .play-now h6{
     margin: 30px 0;
 }
+
 
 /* Social */
 
@@ -356,8 +357,8 @@ main{
     .ms-container_social{
         width: 520px
     }
-    
 }
+
 
 /* Footer */
 
@@ -388,6 +389,7 @@ footer{
 p .footer__link{
     text-decoration: underline;
 }
+
 
 /*hover*/
 
