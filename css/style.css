@@ -5,6 +5,15 @@ body{
     font-family: Arial, sans-serif
 }
 
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul{
+    list-style: none;
+}
+
 .ms-btn_general{
     border-radius: 22px;
 }
@@ -343,4 +352,34 @@ main{
         width: 520px
     }
     
+}
+
+/* Footer */
+
+footer{
+    padding: 75px 0;
+    background-color: #00439c;
+    font-size: 0.75rem;
+}
+
+.world-logo{
+    height: 1rem;
+    margin-right: 5px;
+}
+
+.play-logo--white, .sie-logo{
+    display: block;
+}
+
+.play-logo--white{
+    margin-bottom: 30px;
+}
+
+.sie-logo{
+    height: 50px;
+    margin-bottom: 18px;
+}
+
+p .footer__link{
+    text-decoration: underline;
 }
