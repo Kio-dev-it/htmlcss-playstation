@@ -314,3 +314,33 @@ main{
 .play-now h6{
     margin: 30px 0;
 }
+
+/* Social */
+
+.social{
+    padding: 80px 0 40px 0;
+}
+
+.social h2{
+    margin-bottom: 70px;
+}
+
+.social__logo{
+    width: 100%;
+}
+
+.social__link{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.ms-container_social{
+    width: 100%;
+}
+
+@media screen and (min-width: 576px){
+    .ms-container_social{
+        width: 520px
+    }
+    
+}
