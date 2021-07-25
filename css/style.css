@@ -198,6 +198,13 @@ main{
     padding-top: 110px;
 }
 
+.play5,
+.discount,
+.play4,
+.social{
+    padding: 80px 0 50px 0;
+}
+
 /* hero */
 
 .hero__selected{
@@ -226,9 +233,6 @@ main{
 }
 
 /* play 5 */
-.play5{
-    padding: 80px 0 40px 0;
-}
 
 .play5__image-thumb{
     width: 70%;
@@ -274,10 +278,6 @@ main{
 
 /* play 4 */
 
-.play4{
-    padding: 80px 0 60px 0;
-}
-
 .play4 h4{
     margin-bottom: 6px;
 }
@@ -292,24 +292,26 @@ main{
 }
 
 
+/* banner */
+
+.banner__logo{
+    width: 60%;
+}
+
+.banner h6{
+    margin: 30px 0;
+}
+
+
 /* PlaysStation Plus */
 
 .play-plus{
     background-color: #bebcbb;
 }
 
-.play-plus__logo{
-    width: 60%;
-}
-
-.play-plus h6{
-    margin: 30px 0;
-}
 
 /* Discount */
-.discount{
-    padding: 80px 0 60px 0;
-}
+
 .discount h4{
     margin-bottom: 65px;
 }
@@ -321,20 +323,8 @@ main{
     background-color: #161c3b;
 }
 
-.play-now__logo{
-    width: 60%;
-}
-
-.play-now h6{
-    margin: 30px 0;
-}
-
 
 /* Social */
-
-.social{
-    padding: 80px 0 40px 0;
-}
 
 .social h2{
     margin-bottom: 70px;
@@ -352,6 +342,9 @@ main{
 .ms-container_social{
     width: 100%;
 }
+
+
+/* media query container social constant width */
 
 @media screen and (min-width: 576px){
     .ms-container_social{
