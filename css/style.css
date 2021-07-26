@@ -189,9 +189,12 @@ header{
     margin-left: -1em;
 }
 
-
-.sub_link{
+.drop_link, .sub_link{
     color: #000;
+}
+
+.drop_link h6{
+    margin-bottom: 0;
 }
 
 .header-bottom .dropdown .nav-link::after{
