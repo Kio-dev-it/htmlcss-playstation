@@ -116,6 +116,30 @@ h1, h2, h3, h4, h5, h6, span, p{
 }
 
 
+/* debug */
+
+.debug {
+    display: none;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.debug .container {
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+	height: 100vh;
+}
+.debug .col:not(:last-child) {
+	border-right: 1px solid red;
+	height: 100vh;
+}
+
+.header-top:hover .debug{
+    display: block;
+}
+
 /* header */
 
 header{
@@ -335,7 +359,6 @@ main{
 }
 
 .social__link{
-    display: inline-block;
     margin-bottom: 50px;
 }
 
