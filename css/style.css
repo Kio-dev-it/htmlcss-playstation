@@ -119,18 +119,20 @@ h1, h2, h3, h4, h5, h6, span, p{
 /* debug */
 
 .debug {
-    display: none;
+    display: flex;
 	position: fixed;
-	z-index: 1;
+	z-index: 9999;
 	top: 0;
 	left: 0;
 	width: 100%;
 }
+
 .debug .container {
 	border-left: 1px solid blue;
 	border-right: 1px solid blue;
 	height: 100vh;
 }
+
 .debug .col:not(:last-child) {
 	border-right: 1px solid red;
 	height: 100vh;
@@ -222,7 +224,6 @@ header{
     color: #000;
 }
 
-
 .navbar-expand-lg .navbar-nav .nav-link{
     padding-left: 0;
     padding-right: 0;
@@ -235,10 +236,8 @@ header{
     color: #0072ce;
 }
 
-.dropdown-menu{
-    border: none;
-    border-radius: 0;
-}
+
+/* media query add to create superbonius */
 
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .dropdown-menu, .nav-item .dropdown-menu {
@@ -249,13 +248,12 @@ header{
     }
 }
 
-/* 
-dropdown-menu[data-bs-popper] {
-    top: auto;
-    left: 0;
-    right: 0;
-    margin-top: .125rem;
-} */
+.dropdown-menu{
+    border: none;
+    border-radius: 0;
+}
+
+
 /*  ----------   main   ---------- */
 
 main{
@@ -339,6 +337,7 @@ main{
 .new-title .game{
     margin-bottom: 50px;
 }
+
 
 /* play 4 */
 
