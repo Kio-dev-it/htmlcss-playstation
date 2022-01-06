@@ -15,7 +15,7 @@ Nel caso vogliate dare un'occhiata: https://kio-dev-it.github.io/htmlcss-playsta
 
 _ENG Version_
 
-### Sony Playstation  reproduction
+### Sony Playstation homepage reproduction
 
 
 This is the reproduction of Playstation website homepage, it was the final exercise of the HTML&CSS only section of the Boolean Careers course to become Full Stack Web Developer.
